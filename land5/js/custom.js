@@ -1,13 +1,13 @@
 
 $( function() {
-        var endDate = "May  1, 2017 00:00:00";
+        var endDate = "May  2, 2017 00:00:00";
 
         $('.countdown.simple').countdown({ date: endDate });
 
         $('.countdown.styled').countdown({
           date: endDate,
           render: function(data) {
-            $(this.el).html("<div>" + this.leadingZeros(data.days, 3) + " <span>days</span></div><div>" + this.leadingZeros(data.hours, 2) + " <span>hrs</span></div><div>" + this.leadingZeros(data.min, 2) + " <span>min</span></div><div>" + this.leadingZeros(data.sec, 2) + " <span>sec</span></div>");
+            $(this.el).html("<div>" + this.leadingZeros(data.days, 3) + " <span>Días</span></div><div>" + this.leadingZeros(data.hours, 2) + " <span>Horas</span></div><div>" + this.leadingZeros(data.min, 2) + " <span>Min</span></div><div>" + this.leadingZeros(data.sec, 2) + " <span>Secs</span></div>");
           }
         });
 
@@ -93,7 +93,10 @@ $('document').ready(function () {
 	 $.backstretch([
       "images/img1.jpg"
     , "images/img2.jpg"
-  ], {duration: 1500, fade: 2000});
+    , "images/img3.jpg"
+    , "images/img4.png"
+
+  ], {duration: 1300, fade: 2000});
   
     customScripts.init();
 	$('#services .col-md-3, #features, #aboutUs, #clients, #portfolio, #plans, #contactUs .parlex-back').css('opacity','0');

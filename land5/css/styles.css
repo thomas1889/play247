@@ -12,7 +12,7 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 	line-height: 1.7;
-	color: #666666;
+	color: #fff;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-size-adjust: 100%;
 	background: #fff;
@@ -23,12 +23,12 @@ body {
 }
 ::selection {
 	color: #fff;
-	background: #FFD500;
+	background: #ff9f00;
 }
 
 ::-moz-selection {
  color: #fff;
- background: #FFD500;
+ background: #ff9f00;
 }
 p {
 	color: #858585;
@@ -55,13 +55,13 @@ h1, h2, h3, h4, h5, h6, #home .heading strong {
 	opacity: 1;
 }
 .pDark p {
-	color: #6D6D6D;
+	color: #6a6a6a;
 }
 .pDark h3 {
 	color: #BEBEBE;
 }
 .btn {
-	background: #FFD500;
+	background: #ff9f00;
 }
 .btn:hover {
 	background: #145AC4;
@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5, h6, #home .heading strong {
 	border: none;
 	padding: 22px 4px;
 	outline: none;
-	color: #5A5A5A;
+	color: #fff;
 	margin: 0;
 	width: 210px;
 	max-width: 100%;
@@ -107,7 +107,7 @@ h1, h2, h3, h4, h5, h6, #home .heading strong {
 	background: rgba(255,255,255,0.35);
 }
 a {
-	color: #FFD500;
+	color: #ff9f00;
 	text-decoration: none;
 	text-shadow: none;
 	-webkit-transition: all 0.2s linear;
@@ -127,7 +127,7 @@ a:hover {
 .btn-primary {
 	background: #fff;
 	border: 1px solid #fff !important;
-	color: #414141 !important;
+	color: #fff !important;
 }
 .btn-secondary {
 	background: transparent;
@@ -327,7 +327,7 @@ h2, .h2 {
 	height: 100px;
 	text-shadow: none;
 	vertical-align: middle;
-	color: #FFD500;
+	color: #ff9f00;
 	border: 1px solid rgba(255, 255, 255, 0.17);
 	padding: 10px 30px;
 	height: auto;
@@ -358,7 +358,7 @@ h2, .h2 {
 }
 .banner-container {
 	background: rgba(0, 0, 0, 0.5);
-	background-image: url('../images/dots.png');
+	background-image: url('../images/dots.png'), center top;
 	background-repeat: repeat;
 	height: 760px;
 }
@@ -470,14 +470,14 @@ h2, .h2 {
 	background: transparent;
 }
 .navbar-inverse .navbar-toggle {
-	background-color: #FFD500;
+	background-color: #ff9f00;
 }
 .navbar-inverse .navbar-toggle .icon-bar {
-/*background-color: #FFD500;*/
+/*background-color: #ff9f00;*/
 ;
 }
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
-	background: #FFD500;
+	background: #ff9f00;
 }
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
 	color: #fff;
@@ -504,13 +504,13 @@ h2, .h2 {
  
 .actionPanel {
 	padding: 25px 0;
-	background: #FFD500;
+	background: #ff9f00;
 }
 .actionPanel h3 {
 	margin: 0px;
 }
 .circle {
-	color: #FFD500;
+	color: #ff9f00;
 	height: 80px;
 	width: 80px;
 	border-radius: 90px;
@@ -531,7 +531,7 @@ h2, .h2 {
 	height: 50px;/*color:#FF5200;*/
 }
 .navbar-brand b {
-	color: #FFD500;
+	color: #ff9f00;
 	font-family: 'Oswald', sans-serif;
 	font-weight: 900;
 }
@@ -566,7 +566,7 @@ h2, .h2 {
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
 	color: #fff;
 	background: none;
-	border-bottom: 2px solid #FFD500;
+	border-bottom: 2px solid #ff9f00;
 	border-radius: 0px;
 }
 .navbar-inverse .navbar-nav > .active {
@@ -594,7 +594,7 @@ h2, .h2 {
 	font-weight: 200;
 }
 .page-section h2 {
-	color: #FFD500;
+	color: #ff9f00;
 }
 .page-section p {
 	font-size: 16px;
@@ -604,7 +604,7 @@ h2, .h2 {
 	background: #000;
 }
 .darkBg .fa {
-	color: #FFD500;
+	color: #ff9f00;
 }
 #logo {
 	margin-top: 6.875rem;
@@ -628,7 +628,7 @@ h2, .h2 {
 	width: 60px;
 }
 a.arrow-link {
-	color: #FFD500;
+	color: #ff9f00;
 }
 a.arrow-link:hover {
 	color: #fff;
@@ -716,11 +716,12 @@ img, video, iframe, embed, object {
 	margin: auto auto 80px;
 }
 #aboutUs {
-	background: #CC9D08;
-	padding-top: 35px;
-	padding-bottom: 25px;
+	background: #4E4E4E;
+	padding-top: 15px;
+	padding-bottom: 5px;
 	overflow: hidden;
-	color:#fff;
+	color:#000;
+	opacity: 1.0;
 }
 #aboutUs p{
 color:#fff;
@@ -742,6 +743,9 @@ color:#fff;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	color: #222;
+}
+#aboutUs div img{
+	margin: 0;
 }
 .fluid-video-wrapper {
 	margin-top: 18px;
@@ -784,13 +788,13 @@ color:#fff;
 	top: 36px;
 }
 #contactUs {
-/*background: #FFD500;*/;
+/*background: #ff9f00;*/;
 	opacity: 1.5;
 }
 #contactUs .btn {
 	border-radius: 0px !important;
 	border: 0px !important;
-	background: #FFD500; 
+	background: #ff9f00; 
 }
 nav#filter {
 	margin-bottom: 1.5em;
@@ -802,11 +806,11 @@ nav#filter li {
 nav#filter a {
 	padding: 4px 12px;
 	line-height: 20px;
-	border: 1px solid #FFD500;
+	border: 1px solid #ff9f00;
 	text-decoration: none;
 }
 .current {
-	background: #FFD500;
+	background: #ff9f00;
 	color: #fff;
 }
 .page-section.intro {
@@ -895,7 +899,7 @@ footer {
 .social a {
 	font-size: 32px;
 	margin: 0 10px;
-	color: #FFD500;
+	color: #ff9f00;
 }
 .contact ul li {
 	margin-bottom: 10px;
@@ -1056,8 +1060,3 @@ li.active a {
 color: #FED400;
 }
 
-
------
-#btnreclamar{
-	width: 100%;
-}
