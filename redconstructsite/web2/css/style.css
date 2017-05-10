@@ -1,7 +1,7 @@
 @font-face {
-  font-family: 'icomoon';
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx");
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+  font-family: 'sans-serif';
+  src: url("../fonts/Quicksand_Dash");
+  src: url("../fonts/Quicksand-regular") format("embedded-opentype"), url("../fonts/Quicksand-regular.otf?srf3rx") format("truetype"), url("../fonts/Quicksand_Dash.otf?srf3rx") format("otf");
   font-weight: normal;
   font-style: normal;
 }
@@ -12,7 +12,7 @@
 *
 * ======================================================= */
 body {
-  font-family: "Roboto Mono", monospace;
+  font-family: 'Quicksand', sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 1.8;
@@ -67,7 +67,7 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   color: #000;
-  font-family: "Roboto Mono", monospace;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 400;
   margin: 0 0 30px 0;
 }
@@ -104,7 +104,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
 }
 #fh5co-header #navbar li a {
-  font-family: "Roboto Mono", monospace;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: rgba(0, 0, 0, 0.6);
   position: relative;
   font-size: 16px;
@@ -276,7 +276,7 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-header.navbar-fixed-top #navbar li.active a {
   color: #3EC483 !important;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   #fh5co-header.navbar-fixed-top #navbar li.active a {
     color: #3EC483 !important;
   }
@@ -287,7 +287,7 @@ h1, h2, h3, h4, h5, h6 {
   transform: scaleX(1);
   background-color: #3EC483;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   #fh5co-header.navbar-fixed-top #navbar li.active a span:before {
     background-color: transparent;
   }
@@ -329,13 +329,13 @@ h1, h2, h3, h4, h5, h6 {
   border: transparent;
   background: #fff;
   margin: 0;
-  padding: 10px 70px;
+  padding: 10px 100px;
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   -ms-border-radius: 0px;
   border-radius: 0px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   #fh5co-header .navbar-default {
     margin-top: 0px;
     padding-right: 0px;
@@ -345,9 +345,10 @@ h1, h2, h3, h4, h5, h6 {
 
 #fh5co-home {
   background: url(../images/back_1.jpg) top center;
+  background-repeat:no-repeat; 
   background-color: transparent;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: unset;
   position: relative;
   width: 100%;
   background-color: #e6e6e6;
@@ -390,7 +391,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0 40px 0;
   letter-spacing: .1em;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   #fh5co-home .text-inner h1 {
     font-size: 30px;
   }
@@ -406,7 +407,7 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: none;
   letter-spacing: .1em;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   #fh5co-home .text-inner h1 .big {
     font-size: 30px;
   }
@@ -416,7 +417,7 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: none;
   letter-spacing: .1em;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   #fh5co-home .text-inner h1 .medium {
     font-size: 30px;
   }
@@ -459,7 +460,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #3EC483;
   text-decoration: none !important;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   #fh5co-home .text-inner .call-to-action a.demo {
     margin: 0 auto;
     margin-bottom: 20px;
@@ -470,7 +471,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #00ADB5;
   text-decoration: none !important;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   #fh5co-home .text-inner .call-to-action a.download {
     margin: 0 auto;
     margin-bottom: 20px;
@@ -487,7 +488,7 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-blog {
   padding: 2em 0;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   #fh5co-services,
   #fh5co-testimony,
   #fh5co-explore,
@@ -538,7 +539,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   height: 300px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   .fh5co-portfolio .portfolio-entry {
     height: 400px;
   }
@@ -851,7 +852,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 30px;
   display: block;
   color: rgba(0, 0, 0, 0.7);
-  font-family: "Roboto Mono", monospace;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   width: 100%;
   font-weight: 700;
   margin-bottom: .3em;
@@ -877,7 +878,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.5;
   letter-spacing: .1em;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   .section-heading h2 {
     font-size: 28px;
   }
@@ -891,7 +892,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   padding-bottom: 30px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800) {
   .section-heading h3 {
     font-size: 16px !important;
     line-height: 28px;
@@ -1098,7 +1099,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .fh5co-nav-toggle {
   position: absolute;
-  top: 2px;
+  top: 10px;
   right: 15px;
   z-index: 21;
   padding: 6px 0 0 0;
@@ -1109,7 +1110,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 25px;
   border-bottom: none !important;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   .fh5co-nav-toggle {
     display: block;
   }
@@ -1118,7 +1119,7 @@ h1, h2, h3, h4, h5, h6 {
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: "Roboto Mono", monospace;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 16px;
   font-weight: 400;
   -webkit-border-radius: 30px;
@@ -1365,7 +1366,7 @@ h1, h2, h3, h4, h5, h6 {
 .row-bottom-padded-lg {
   padding-bottom: 7em;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   .row-bottom-padded-lg {
     padding-bottom: 2em;
   }
@@ -1374,7 +1375,7 @@ h1, h2, h3, h4, h5, h6 {
 .row-bottom-padded-md {
   padding-bottom: 4em;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   .row-bottom-padded-md {
     padding-bottom: 2em;
   }
@@ -1383,7 +1384,7 @@ h1, h2, h3, h4, h5, h6 {
 .row-bottom-padded-sm {
   padding-bottom: 2em;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   .row-bottom-padded-sm {
     padding-bottom: 2em;
   }
@@ -1416,3 +1417,9 @@ h1, h2, h3, h4, h5, h6 {
 /*------ 
 mis propios estilos 
 ---*/
+
+.divisionmedia{
+  width: 100%;
+  height: 1px;
+  background-color: #535659; 
+}
