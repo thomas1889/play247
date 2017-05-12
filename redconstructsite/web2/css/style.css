@@ -345,7 +345,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #fh5co-home {
   background: url(../images/back_1.jpg) top center;
-  background-repeat:no-repeat; 
+  background-size: 100%;
   background-color: transparent;
   background-size: cover;
   background-attachment: unset;
